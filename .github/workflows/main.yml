@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   ci:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Autenticar no Docker hub
         run: echo "Executando o comando Docker Login"
@@ -16,7 +16,7 @@ jobs:
         run: echo "Executando o comando Docker push"
 
   cd:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: [ci]
     steps:
       - name: Autenticar na AWS
