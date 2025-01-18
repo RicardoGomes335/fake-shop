@@ -1,6 +1,6 @@
 # Fake Shop Serverless Architecture
 
-Este projeto implementa uma arquitetura serverless para uma loja online chamada **FakeShop** versionadas em Docker + Dockerhub + kubernetes, Pipelines CI/CD e usando serviços cloud da AWS como, AWS EKS, AWS CLOUDFORMATION . Esta arquitetura é escalável e fácil de gerenciar.
+Este projeto implementa uma arquitetura serverless para uma loja online chamada **FakeShop** versionadas em Docker + Dockerhub + kubernetes, Pipelines CI/CD Github Actions + Cloudcraft e usando serviços cloud da AWS como, AWS EKS, AWS CLOUDFORMATION com o projeto hospedado no DockerHub. Esta arquitetura é escalável e fácil de gerenciar. Uso do Prometheus com monitoramento pelo Grafana.
 
 <img src="/assets/diagramasaws/awsdiagram.png">
 
@@ -40,6 +40,18 @@ Este projeto implementa uma arquitetura serverless para uma loja online chamada 
 
 <img src="/assets/screenshotapp/V3app.png">
 
+## URL da Aplicação
+
+<http://a427491f3261b4534a4f21ac735f0f5b-83007396.us-east-1.elb.amazonaws.com/>
+
 ## Prometheus config
 
-## Grafana dashboard
+<img src="/assets/prometheus-config-cli/CLI.png">
+
+## Grafana Kubernetes dashboard
+
+<img src="/assets/grafana/kubernetes.png">
+
+## Grafana Prometheus dashboard
+
+<img src="/assets/grafana/prometheus.png">
