@@ -24,18 +24,14 @@ Este projeto implementa uma arquitetura serverless para uma loja online chamada 
 
 <img src="/assets/aws-cli/aws-url.png">
 
+## Repositório hospedado no DockerHub
+
+<img src="/assets/dockerhub-screenshot/dockerhub.png">
+
 ## Monitoramento de Custos da arquitetura com CLOUDCRAFT
 
 <img src="/assets/cloudcraft-screenshot/Dashboard1.png">
 
-## Variável de Ambiente
+## Implementação CI/CD com Github Actions
 
-DB_HOST => Host do banco de dados PostgreSQL.
-
-DB_USER => Nome do usuário do banco de dados PostgreSQL.
-
-DB_PASSWORD => Senha do usuário do banco de dados PostgreSQL.
-
-DB_NAME => Nome do banco de dados PostgreSQL.
-
-DB_PORT => Porta de conexão com o banco de dados PostgreSQL.
+<img src="/assets/github-actions-screenshot/CI:CD-GithubActions.png">
