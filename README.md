@@ -35,3 +35,11 @@ Este projeto implementa uma arquitetura serverless para uma loja online chamada 
 ## Implementação CI/CD com Github Actions
 
 <img src="/assets/github-actions-screenshot/CI:CD-GithubActions.png">
+
+## Screenshot da aplicação
+
+<img src="/assets/screenshotapp/v3app.png">
+
+## Prometheus config
+
+## Grafana dashboard
