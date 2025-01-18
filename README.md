@@ -38,7 +38,7 @@ Este projeto implementa uma arquitetura serverless para uma loja online chamada 
 
 ## Screenshot da aplicação
 
-<img src="/assets/screenshotapp/v3app.png">
+<img src="/assets/screenshotapp/V3app.png">
 
 ## Prometheus config
 
