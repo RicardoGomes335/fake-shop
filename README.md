@@ -2,6 +2,8 @@
 
 Este projeto implementa uma arquitetura serverless para uma loja online chamada **FakeShop** versionadas em Docker + Dockerhub + kubernetes, Pipelines CI/CD e usando serviços cloud da AWS como, AWS EKS, AWS CLOUDFORMATION . Esta arquitetura é escalável e fácil de gerenciar.
 
+<img src="/assets/img/diagramasaws/awsdiagram.png">
+
 ## Variável de Ambiente
 
 DB_HOST => Host do banco de dados PostgreSQL.
