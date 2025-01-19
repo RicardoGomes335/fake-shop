@@ -12,7 +12,7 @@ Este projeto implementa uma arquitetura serverless para uma loja online chamada 
 4. **NewRole AWS Service EKS**: Vincular cluster EKS ao ECS com as respectivas Policies.
 5. **CloudFormation**: Criar a rede pelo CloudFormation com upload de um template.
 6. **Create EKS Cluster**: Criar cluster EKS pelo painel AWS.
-7. **Install AWS CLI**: Intalar o AWS CLI (Usei o Mac e o Linux).
+7. **Install AWS CLI**: Instalar o AWS CLI (Usei o Mac e o Linux).
 8. **Add EKS Node Group**: Adicionar o grupo de nodes do EKS selecionando as redes public/private.
 9. **Deploy CLICommand**: Fazer o deploy pelo terminal.
 
